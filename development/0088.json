@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0088",
+  "author_date": "2026-11-14T14:34:03-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace simulated position identity, size and cost fields through its consumers",
+  "source_file": "lib/types.ts",
+  "source_line": 46,
+  "review_condition": null
+}
