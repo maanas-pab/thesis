@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0036",
+  "author_date": "2026-11-13T22:41:47-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — foundation",
+  "activity_category": "design",
+  "activity": "plan: define yes and no market-side union",
+  "source_file": "lib/types.ts",
+  "source_line": 1,
+  "review_condition": null
+}
