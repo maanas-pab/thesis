@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0025",
+  "author_date": "2026-11-13T21:16:41-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of root import alias and bundler resolution",
+  "source_file": "tsconfig.json",
+  "source_line": 21,
+  "review_condition": null
+}
