@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0060",
+  "author_date": "2026-11-14T10:56:53-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of Safe and Bold pricing result shape",
+  "source_file": "lib/types.ts",
+  "source_line": 18,
+  "review_condition": null
+}
