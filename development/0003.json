@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0003",
+  "author_date": "2026-11-13T18:15:01-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace Next.js and React runtime dependencies through its consumers",
+  "source_file": "package.json",
+  "source_line": 11,
+  "review_condition": null
+}
