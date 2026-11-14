@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0033",
+  "author_date": "2026-11-13T22:19:56-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace generated dependency and build exclusions through its consumers",
+  "source_file": ".gitignore",
+  "source_line": 4,
+  "review_condition": null
+}
