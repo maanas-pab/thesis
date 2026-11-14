@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0010",
+  "author_date": "2026-11-13T18:49:44-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of development, build and start scripts",
+  "source_file": "package.json",
+  "source_line": 5,
+  "review_condition": null
+}
