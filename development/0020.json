@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0020",
+  "author_date": "2026-11-13T20:10:00-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of strict no-emit compiler configuration",
+  "source_file": "tsconfig.json",
+  "source_line": 7,
+  "review_condition": null
+}
