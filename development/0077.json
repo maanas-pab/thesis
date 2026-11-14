@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0077",
+  "author_date": "2026-11-14T13:23:02-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement story index and whole-basket buy-price units",
+  "source_file": "lib/types.ts",
+  "source_line": 36,
+  "review_condition": null
+}
