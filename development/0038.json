@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0038",
+  "author_date": "2026-11-13T22:59:59-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace yes and no market-side union through its consumers",
+  "source_file": "lib/types.ts",
+  "source_line": 1,
+  "review_condition": null
+}
