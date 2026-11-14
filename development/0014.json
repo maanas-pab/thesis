@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0014",
+  "author_date": "2026-11-13T19:13:17-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for TypeScript development dependencies",
+  "source_file": "package.json",
+  "source_line": 17,
+  "review_condition": "Proposed check: type packages cover the runtime imports. This check is not claimed to have been run or passed."
+}
