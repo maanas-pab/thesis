@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0071",
+  "author_date": "2026-11-14T11:55:11-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — integration",
+  "activity_category": "design",
+  "activity": "plan: define story category and settlement metadata",
+  "source_file": "lib/types.ts",
+  "source_line": 32,
+  "review_condition": null
+}
