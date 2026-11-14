@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0015",
+  "author_date": "2026-11-13T19:21:57-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of TypeScript development dependencies",
+  "source_file": "package.json",
+  "source_line": 17,
+  "review_condition": null
+}
