@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0024",
+  "author_date": "2026-11-13T21:09:51-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for root import alias and bundler resolution",
+  "source_file": "tsconfig.json",
+  "source_line": 21,
+  "review_condition": "Proposed check: an @/lib import resolves to the intended module. This check is not claimed to have been run or passed."
+}
