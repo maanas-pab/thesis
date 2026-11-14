@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0069",
+  "author_date": "2026-11-14T11:42:08-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for story identity and descriptive metadata",
+  "source_file": "lib/types.ts",
+  "source_line": 28,
+  "review_condition": "Proposed check: story IDs remain independent of display names. This check is not claimed to have been run or passed."
+}
