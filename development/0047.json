@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0047",
+  "author_date": "2026-11-14T09:30:33-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement leg midpoint and executable buy-price fields",
+  "source_file": "lib/types.ts",
+  "source_line": 10,
+  "review_condition": null
+}
