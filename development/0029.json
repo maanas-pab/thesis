@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0029",
+  "author_date": "2026-11-13T21:48:56-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for application-owned market caching configuration",
+  "source_file": "next.config.ts",
+  "source_line": 5,
+  "review_condition": "Proposed check: framework caching does not obscure live data policy. This check is not claimed to have been run or passed."
+}
