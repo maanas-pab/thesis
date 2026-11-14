@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0034",
+  "author_date": "2026-11-13T22:30:48-06:00",
+  "development_area": "Initial scaffold and configuration",
+  "milestone": "Initial scaffold and configuration — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for generated dependency and build exclusions",
+  "source_file": ".gitignore",
+  "source_line": 4,
+  "review_condition": "Proposed check: generated assets stay outside source review. This check is not claimed to have been run or passed."
+}
