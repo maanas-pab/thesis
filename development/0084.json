@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0084",
+  "author_date": "2026-11-14T14:10:07-06:00",
+  "development_area": "Types and data models",
+  "milestone": "Types and data models — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for timestamped chart points and tranche selection union",
+  "source_file": "lib/types.ts",
+  "source_line": 42,
+  "review_condition": "Proposed check: whole, safe and bold are represented consistently. This check is not claimed to have been run or passed."
+}
