@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0214",
+  "author_date": "2026-11-15T16:25:49-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for settlement waterfall for whole, Safe and Bold",
+  "source_file": "lib/math.ts",
+  "source_line": 89,
+  "review_condition": "Proposed check: Safe plus Bold payout equals the pool at each hit count. This check is not claimed to have been run or passed."
+}
