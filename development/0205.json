@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0205",
+  "author_date": "2026-11-15T15:29:40-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of Safe and Bold total-loss probabilities",
+  "source_file": "lib/math.ts",
+  "source_line": 72,
+  "review_condition": null
+}
