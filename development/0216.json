@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0216",
+  "author_date": "2026-11-15T16:39:34-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — foundation",
+  "activity_category": "design",
+  "activity": "plan: define label, at-the-money and top-ranked selection modes",
+  "source_file": "lib/stories.ts",
+  "source_line": 8,
+  "review_condition": null
+}
