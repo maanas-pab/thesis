@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0177",
+  "author_date": "2026-11-15T11:54:49-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement hit-branch probability accumulation",
+  "source_file": "lib/math.ts",
+  "source_line": 19,
+  "review_condition": null
+}
