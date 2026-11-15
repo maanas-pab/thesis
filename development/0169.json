@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0169",
+  "author_date": "2026-11-15T11:00:13-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for hit-distribution initialization",
+  "source_file": "lib/math.ts",
+  "source_line": 14,
+  "review_condition": "Proposed check: the initial zero-leg distribution has unit mass. This check is not claimed to have been run or passed."
+}
