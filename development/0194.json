@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0194",
+  "author_date": "2026-11-15T14:22:48-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for binary-search cap selection",
+  "source_file": "lib/math.ts",
+  "source_line": 48,
+  "review_condition": "Proposed check: endpoint handling and two-decimal rounding are reviewed. This check is not claimed to have been run or passed."
+}
