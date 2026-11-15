@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0159",
+  "author_date": "2026-11-15T10:05:12-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for Safe best-case return target",
+  "source_file": "lib/math.ts",
+  "source_line": 4,
+  "review_condition": "Proposed check: the 15 percent target is a model aim rather than a guarantee. This check is not claimed to have been run or passed."
+}
