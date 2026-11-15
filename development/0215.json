@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0215",
+  "author_date": "2026-11-15T16:33:39-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of settlement waterfall for whole, Safe and Bold",
+  "source_file": "lib/math.ts",
+  "source_line": 89,
+  "review_condition": null
+}
