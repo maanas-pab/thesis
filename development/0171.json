@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0171",
+  "author_date": "2026-11-15T11:13:26-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "design",
+  "activity": "plan: define miss-branch probability accumulation",
+  "source_file": "lib/math.ts",
+  "source_line": 18,
+  "review_condition": null
+}
