@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0162",
+  "author_date": "2026-11-15T10:23:34-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement attachment-cap bounds",
+  "source_file": "lib/math.ts",
+  "source_line": 6,
+  "review_condition": null
+}
