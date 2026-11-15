@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0189",
+  "author_date": "2026-11-15T13:53:45-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for spread-adjusted cap objective",
+  "source_file": "lib/math.ts",
+  "source_line": 42,
+  "review_condition": "Proposed check: a wider spread changes the target ratio. This check is not claimed to have been run or passed."
+}
