@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0173",
+  "author_date": "2026-11-15T11:27:12-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace miss-branch probability accumulation through its consumers",
+  "source_file": "lib/math.ts",
+  "source_line": 18,
+  "review_condition": null
+}
