@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0196",
+  "author_date": "2026-11-15T14:32:31-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "design",
+  "activity": "plan: define residual Bold value",
+  "source_file": "lib/math.ts",
+  "source_line": 71,
+  "review_condition": null
+}
