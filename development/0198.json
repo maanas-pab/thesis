@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0198",
+  "author_date": "2026-11-15T14:43:11-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace residual Bold value through its consumers",
+  "source_file": "lib/math.ts",
+  "source_line": 71,
+  "review_condition": null
+}
