@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0133",
+  "author_date": "2026-11-14T20:09:15-06:00",
+  "development_area": "Gemini data integration",
+  "milestone": "Gemini data integration — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace first-load request deduplication through its consumers",
+  "source_file": "lib/gemini.ts",
+  "source_line": 41,
+  "review_condition": null
+}
