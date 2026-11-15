@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0207",
+  "author_date": "2026-11-15T15:44:59-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement purchase spread allocation by tranche",
+  "source_file": "lib/math.ts",
+  "source_line": 78,
+  "review_condition": null
+}
