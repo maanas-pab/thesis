@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0219",
+  "author_date": "2026-11-15T16:53:05-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for label, at-the-money and top-ranked selection modes",
+  "source_file": "lib/stories.ts",
+  "source_line": 8,
+  "review_condition": "Proposed check: each selector carries an explicit yes or no side. This check is not claimed to have been run or passed."
+}
