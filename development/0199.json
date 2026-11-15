@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0199",
+  "author_date": "2026-11-15T14:47:11-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for residual Bold value",
+  "source_file": "lib/math.ts",
+  "source_line": 71,
+  "review_condition": "Proposed check: Safe and Bold model values sum to the whole value. This check is not claimed to have been run or passed."
+}
