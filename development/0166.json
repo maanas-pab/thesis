@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0166",
+  "author_date": "2026-11-15T10:40:33-06:00",
+  "development_area": "Safe/Bold pricing engine",
+  "milestone": "Safe/Bold pricing engine — foundation",
+  "activity_category": "design",
+  "activity": "plan: define hit-distribution initialization",
+  "source_file": "lib/math.ts",
+  "source_line": 14,
+  "review_condition": null
+}
