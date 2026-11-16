@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0338",
+  "author_date": "2026-11-16T16:44:04-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace system dark-theme overrides through its consumers",
+  "source_file": "app/globals.css",
+  "source_line": 23,
+  "review_condition": null
+}
