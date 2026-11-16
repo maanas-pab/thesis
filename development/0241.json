@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0241",
+  "author_date": "2026-11-15T20:17:19-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — foundation",
+  "activity_category": "design",
+  "activity": "plan: define contract-to-leg quote conversion",
+  "source_file": "lib/stories.ts",
+  "source_line": 139,
+  "review_condition": null
+}
