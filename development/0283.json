@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0283",
+  "author_date": "2026-11-16T10:26:34-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace dynamic stories JSON endpoint through its consumers",
+  "source_file": "app/api/stories/route.ts",
+  "source_line": 5,
+  "review_condition": null
+}
