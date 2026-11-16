@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0278",
+  "author_date": "2026-11-16T10:00:32-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace daily warm and cold weather basket generation through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 210,
+  "review_condition": null
+}
