@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0299",
+  "author_date": "2026-11-16T12:01:59-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for curated and weather story collection",
+  "source_file": "lib/stories.ts",
+  "source_line": 263,
+  "review_condition": "Proposed check: weather failure leaves curated stories available. This check is not claimed to have been run or passed."
+}
