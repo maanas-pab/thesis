@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0284",
+  "author_date": "2026-11-16T10:34:38-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for dynamic stories JSON endpoint",
+  "source_file": "app/api/stories/route.ts",
+  "source_line": 5,
+  "review_condition": "Proposed check: the endpoint returns the constructed story list. This check is not claimed to have been run or passed."
+}
