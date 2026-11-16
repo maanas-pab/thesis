@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0274",
+  "author_date": "2026-11-16T09:40:22-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for weather-region city definitions",
+  "source_file": "lib/stories.ts",
+  "source_line": 201,
+  "review_condition": "Proposed check: regional baskets retain their intended city membership. This check is not claimed to have been run or passed."
+}
