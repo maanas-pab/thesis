@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0342",
+  "author_date": "2026-11-16T17:01:25-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement numeric typography utilities",
+  "source_file": "app/globals.css",
+  "source_line": 71,
+  "review_condition": null
+}
