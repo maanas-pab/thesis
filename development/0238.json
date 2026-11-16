@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0238",
+  "author_date": "2026-11-15T20:00:00-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace sports favorite and upset baskets through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 118,
+  "review_condition": null
+}
