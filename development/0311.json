@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0311",
+  "author_date": "2026-11-16T13:57:51-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — integration",
+  "activity_category": "design",
+  "activity": "plan: define merged chronological candle timestamps",
+  "source_file": "lib/stories.ts",
+  "source_line": 281,
+  "review_condition": null
+}
