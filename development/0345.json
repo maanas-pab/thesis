@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0345",
+  "author_date": "2026-11-16T17:20:00-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of numeric typography utilities",
+  "source_file": "app/globals.css",
+  "source_line": 71,
+  "review_condition": null
+}
