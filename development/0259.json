@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0259",
+  "author_date": "2026-11-15T22:04:58-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for symbol deduplication and minimum basket size",
+  "source_file": "lib/stories.ts",
+  "source_line": 173,
+  "review_condition": "Proposed check: duplicate symbols cannot satisfy the five-leg minimum. This check is not claimed to have been run or passed."
+}
