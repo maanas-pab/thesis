@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0339",
+  "author_date": "2026-11-16T16:48:25-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for system dark-theme overrides",
+  "source_file": "app/globals.css",
+  "source_line": 23,
+  "review_condition": "Proposed check: all semantic surfaces switch together. This check is not claimed to have been run or passed."
+}
