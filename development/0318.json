@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0318",
+  "author_date": "2026-11-16T14:31:12-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace pre-window close initialization through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 285,
+  "review_condition": null
+}
