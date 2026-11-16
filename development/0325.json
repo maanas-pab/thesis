@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0325",
+  "author_date": "2026-11-16T15:16:57-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of forward-filled weighted history reconstruction",
+  "source_file": "lib/stories.ts",
+  "source_line": 293,
+  "review_condition": null
+}
