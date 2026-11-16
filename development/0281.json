@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0281",
+  "author_date": "2026-11-16T10:17:14-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "design",
+  "activity": "plan: define dynamic stories JSON endpoint",
+  "source_file": "app/api/stories/route.ts",
+  "source_line": 5,
+  "review_condition": null
+}
