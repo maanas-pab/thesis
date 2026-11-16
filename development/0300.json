@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0300",
+  "author_date": "2026-11-16T12:10:00-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of curated and weather story collection",
+  "source_file": "lib/stories.ts",
+  "source_line": 263,
+  "review_condition": null
+}
