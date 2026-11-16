@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0269",
+  "author_date": "2026-11-16T09:10:02-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for parallel event collection for curated stories",
+  "source_file": "lib/stories.ts",
+  "source_line": 183,
+  "review_condition": "Proposed check: a missing event does not crash the remaining selections. This check is not claimed to have been run or passed."
+}
