@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0344",
+  "author_date": "2026-11-16T17:12:40-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for numeric typography utilities",
+  "source_file": "app/globals.css",
+  "source_line": 71,
+  "review_condition": "Proposed check: tabular figures align changing monetary values. This check is not claimed to have been run or passed."
+}
