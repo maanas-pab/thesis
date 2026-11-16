@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0266",
+  "author_date": "2026-11-16T08:50:00-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "design",
+  "activity": "plan: define parallel event collection for curated stories",
+  "source_file": "lib/stories.ts",
+  "source_line": 183,
+  "review_condition": null
+}
