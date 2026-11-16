@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0326",
+  "author_date": "2026-11-16T15:20:10-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — integration",
+  "activity_category": "design",
+  "activity": "plan: define last-trade history extension to the present",
+  "source_file": "lib/stories.ts",
+  "source_line": 304,
+  "review_condition": null
+}
