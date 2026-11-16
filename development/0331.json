@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0331",
+  "author_date": "2026-11-16T15:56:25-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "design",
+  "activity": "plan: define light-theme surface and text tokens",
+  "source_file": "app/globals.css",
+  "source_line": 2,
+  "review_condition": null
+}
