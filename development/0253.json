@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0253",
+  "author_date": "2026-11-15T21:30:38-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace contract selection and firm-quote preference through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 159,
+  "review_condition": null
+}
