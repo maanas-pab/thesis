@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0273",
+  "author_date": "2026-11-16T09:35:59-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace weather-region city definitions through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 201,
+  "review_condition": null
+}
