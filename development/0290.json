@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0290",
+  "author_date": "2026-11-16T11:14:31-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of asynchronous history route parameters",
+  "source_file": "app/api/history/[id]/route.ts",
+  "source_line": 6,
+  "review_condition": null
+}
