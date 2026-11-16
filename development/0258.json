@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0258",
+  "author_date": "2026-11-15T21:58:20-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace symbol deduplication and minimum basket size through its consumers",
+  "source_file": "lib/stories.ts",
+  "source_line": 173,
+  "review_condition": null
+}
