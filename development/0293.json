@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0293",
+  "author_date": "2026-11-16T11:27:29-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace missing-story history response through its consumers",
+  "source_file": "app/api/history/[id]/route.ts",
+  "source_line": 8,
+  "review_condition": null
+}
