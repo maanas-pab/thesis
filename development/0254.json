@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0254",
+  "author_date": "2026-11-15T21:35:12-06:00",
+  "development_area": "Stories and weather baskets",
+  "milestone": "Stories and weather baskets — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for contract selection and firm-quote preference",
+  "source_file": "lib/stories.ts",
+  "source_line": 159,
+  "review_condition": "Proposed check: firm quotes are preferred when available. This check is not claimed to have been run or passed."
+}
