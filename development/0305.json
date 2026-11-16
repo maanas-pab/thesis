@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0305",
+  "author_date": "2026-11-16T13:24:18-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of curated and weather single-story lookup",
+  "source_file": "lib/stories.ts",
+  "source_line": 271,
+  "review_condition": null
+}
