@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0306",
+  "author_date": "2026-11-16T13:29:12-06:00",
+  "development_area": "API routes and history",
+  "milestone": "API routes and history — integration",
+  "activity_category": "design",
+  "activity": "plan: define ten-day historical candle window",
+  "source_file": "lib/stories.ts",
+  "source_line": 278,
+  "review_condition": null
+}
