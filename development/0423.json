@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0423",
+  "author_date": "2026-11-17T14:02:02-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace shared navigation, page wrapper and toast placement through its consumers",
+  "source_file": "app/layout.tsx",
+  "source_line": 22,
+  "review_condition": null
+}
