@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0370",
+  "author_date": "2026-11-16T21:12:55-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of normalized card sparkline geometry",
+  "source_file": "components/StoryCard.tsx",
+  "source_line": 34,
+  "review_condition": null
+}
