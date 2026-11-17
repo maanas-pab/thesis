@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0365",
+  "author_date": "2026-11-16T20:38:14-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of near-viewport history loading",
+  "source_file": "components/StoryCard.tsx",
+  "source_line": 13,
+  "review_condition": null
+}
