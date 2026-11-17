@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0379",
+  "author_date": "2026-11-16T21:57:03-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for nearest-point chart pointer selection",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 39,
+  "review_condition": "Proposed check: pointer movement chooses the nearest timestamp position. This check is not claimed to have been run or passed."
+}
