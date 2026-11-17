@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0364",
+  "author_date": "2026-11-16T20:31:36-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for near-viewport history loading",
+  "source_file": "components/StoryCard.tsx",
+  "source_line": 13,
+  "review_condition": "Proposed check: offscreen cards defer history requests until observed. This check is not claimed to have been run or passed."
+}
