@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0414",
+  "author_date": "2026-11-17T12:27:43-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for Thesis page title and description",
+  "source_file": "app/layout.tsx",
+  "source_line": 10,
+  "review_condition": "Proposed check: browser metadata reflects the application name. This check is not claimed to have been run or passed."
+}
