@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0401",
+  "author_date": "2026-11-17T11:08:03-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "design",
+  "activity": "plan: define no-upside and insufficient-cash purchase guards",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 31,
+  "review_condition": null
+}
