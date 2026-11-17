@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0443",
+  "author_date": "2026-11-17T15:58:15-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace active navigation across story detail routes through its consumers",
+  "source_file": "components/Nav.tsx",
+  "source_line": 10,
+  "review_condition": null
+}
