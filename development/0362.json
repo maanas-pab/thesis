@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0362",
+  "author_date": "2026-11-16T20:17:50-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement near-viewport history loading",
+  "source_file": "components/StoryCard.tsx",
+  "source_line": 13,
+  "review_condition": null
+}
