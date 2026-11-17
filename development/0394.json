@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0394",
+  "author_date": "2026-11-17T10:27:41-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for whole, Safe and Bold purchase selector",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 10,
+  "review_condition": "Proposed check: each selected side shows its matching description. This check is not claimed to have been run or passed."
+}
