@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0369",
+  "author_date": "2026-11-16T21:05:45-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for normalized card sparkline geometry",
+  "source_file": "components/StoryCard.tsx",
+  "source_line": 34,
+  "review_condition": "Proposed check: flat price series avoid a zero denominator. This check is not claimed to have been run or passed."
+}
