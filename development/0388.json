@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0388",
+  "author_date": "2026-11-17T09:50:13-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "integration_review",
+  "activity": "review: trace controlled purchase drawer through its consumers",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 51,
+  "review_condition": null
+}
