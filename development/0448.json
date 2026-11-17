@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0448",
+  "author_date": "2026-11-17T16:28:57-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace account-aware navigation display through its consumers",
+  "source_file": "components/Nav.tsx",
+  "source_line": 27,
+  "review_condition": null
+}
