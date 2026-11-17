@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0440",
+  "author_date": "2026-11-17T15:38:54-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of home-page unavailable-market state",
+  "source_file": "app/page.tsx",
+  "source_line": 34,
+  "review_condition": null
+}
