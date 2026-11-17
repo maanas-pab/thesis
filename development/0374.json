@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0374",
+  "author_date": "2026-11-16T21:37:14-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for padded full-chart value scaling",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 26,
+  "review_condition": "Proposed check: constant history remains visible in the plot. This check is not claimed to have been run or passed."
+}
