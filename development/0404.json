@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0404",
+  "author_date": "2026-11-17T11:24:10-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for no-upside and insufficient-cash purchase guards",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 31,
+  "review_condition": "Proposed check: unavailable sides cannot be confirmed. This check is not claimed to have been run or passed."
+}
