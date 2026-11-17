@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0399",
+  "author_date": "2026-11-17T10:54:27-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for purchase amount presets and decimal input",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 15,
+  "review_condition": "Proposed check: preset selection updates the entered amount. This check is not claimed to have been run or passed."
+}
