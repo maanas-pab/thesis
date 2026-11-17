@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0354",
+  "author_date": "2026-11-16T19:19:06-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for responsive story-card grid",
+  "source_file": "app/globals.css",
+  "source_line": 231,
+  "review_condition": "Proposed check: cards wrap within the available viewport. This check is not claimed to have been run or passed."
+}
