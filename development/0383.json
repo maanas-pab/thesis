@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0383",
+  "author_date": "2026-11-17T09:22:03-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "integration_review",
+  "activity": "review: trace history loading and insufficient-data states through its consumers",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 82,
+  "review_condition": null
+}
