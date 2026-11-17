@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0371",
+  "author_date": "2026-11-16T21:19:46-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "design",
+  "activity": "plan: define padded full-chart value scaling",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 26,
+  "review_condition": null
+}
