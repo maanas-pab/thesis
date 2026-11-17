@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0425",
+  "author_date": "2026-11-17T14:15:12-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of shared navigation, page wrapper and toast placement",
+  "source_file": "app/layout.tsx",
+  "source_line": 22,
+  "review_condition": null
+}
