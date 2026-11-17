@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0391",
+  "author_date": "2026-11-17T10:10:58-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "design",
+  "activity": "plan: define whole, Safe and Bold purchase selector",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 10,
+  "review_condition": null
+}
