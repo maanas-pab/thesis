@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0449",
+  "author_date": "2026-11-17T16:36:48-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for account-aware navigation display",
+  "source_file": "components/Nav.tsx",
+  "source_line": 27,
+  "review_condition": "Proposed check: hydration does not briefly show a false signed-out state. This check is not claimed to have been run or passed."
+}
