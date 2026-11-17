@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0346",
+  "author_date": "2026-11-16T18:30:00-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "design",
+  "activity": "plan: define shared button variants and interaction states",
+  "source_file": "app/globals.css",
+  "source_line": 154,
+  "review_condition": null
+}
