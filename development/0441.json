@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0441",
+  "author_date": "2026-11-17T15:47:11-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "design",
+  "activity": "plan: define active navigation across story detail routes",
+  "source_file": "components/Nav.tsx",
+  "source_line": 10,
+  "review_condition": null
+}
