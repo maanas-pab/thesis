@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0439",
+  "author_date": "2026-11-17T15:30:25-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for home-page unavailable-market state",
+  "source_file": "app/page.tsx",
+  "source_line": 34,
+  "review_condition": "Proposed check: an empty story response gives a readable recovery message. This check is not claimed to have been run or passed."
+}
