@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0349",
+  "author_date": "2026-11-16T18:51:01-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for shared button variants and interaction states",
+  "source_file": "app/globals.css",
+  "source_line": 154,
+  "review_condition": "Proposed check: disabled and busy states remain visually distinct. This check is not claimed to have been run or passed."
+}
