@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0377",
+  "author_date": "2026-11-16T21:48:14-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement nearest-point chart pointer selection",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 39,
+  "review_condition": null
+}
