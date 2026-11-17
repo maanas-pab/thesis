@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0446",
+  "author_date": "2026-11-17T16:16:00-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "design",
+  "activity": "plan: define account-aware navigation display",
+  "source_file": "components/Nav.tsx",
+  "source_line": 27,
+  "review_condition": null
+}
