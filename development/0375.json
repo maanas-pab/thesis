@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0375",
+  "author_date": "2026-11-16T21:40:17-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of padded full-chart value scaling",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 26,
+  "review_condition": null
+}
