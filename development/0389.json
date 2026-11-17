@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0389",
+  "author_date": "2026-11-17T09:57:23-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for controlled purchase drawer",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 51,
+  "review_condition": "Proposed check: opening and closing keep the drawer state synchronized. This check is not claimed to have been run or passed."
+}
