@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0378",
+  "author_date": "2026-11-16T21:51:29-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace nearest-point chart pointer selection through its consumers",
+  "source_file": "components/IndexChart.tsx",
+  "source_line": 39,
+  "review_condition": null
+}
