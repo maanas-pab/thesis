@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0358",
+  "author_date": "2026-11-16T19:51:25-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace pointer-aware card interaction styling through its consumers",
+  "source_file": "app/globals.css",
+  "source_line": 251,
+  "review_condition": null
+}
