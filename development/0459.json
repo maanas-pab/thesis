@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0459",
+  "author_date": "2026-11-17T17:39:10-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for basket holdings and indicative quote disclosure",
+  "source_file": "app/s/[id]/page.tsx",
+  "source_line": 43,
+  "review_condition": "Proposed check: weights, prices and quote warnings accompany each leg. This check is not claimed to have been run or passed."
+}
