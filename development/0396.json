@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0396",
+  "author_date": "2026-11-17T10:34:47-06:00",
+  "development_area": "UI components and design system",
+  "milestone": "UI components and design system — edge cases",
+  "activity_category": "design",
+  "activity": "plan: define purchase amount presets and decimal input",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 15,
+  "review_condition": null
+}
