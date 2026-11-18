@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0471",
+  "author_date": "2026-11-17T19:56:51-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "design",
+  "activity": "plan: define browser-local account persistence",
+  "source_file": "lib/store.ts",
+  "source_line": 8,
+  "review_condition": null
+}
