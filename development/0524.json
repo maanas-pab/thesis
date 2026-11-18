@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0524",
+  "author_date": "2026-11-18T13:36:07-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for purchase confirmation re-entry review",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 38,
+  "review_condition": "Proposed check: a busy confirmation does not start another purchase. This check is not claimed to have been run or passed."
+}
