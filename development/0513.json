@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0513",
+  "author_date": "2026-11-18T11:17:48-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace history-hook unmount review through its consumers",
+  "source_file": "components/useHistory.ts",
+  "source_line": 21,
+  "review_condition": null
+}
