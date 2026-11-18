@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0478",
+  "author_date": "2026-11-17T20:36:14-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace account subscriptions and cross-tab updates through its consumers",
+  "source_file": "lib/store.ts",
+  "source_line": 31,
+  "review_condition": null
+}
