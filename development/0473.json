@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0473",
+  "author_date": "2026-11-17T20:04:46-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace browser-local account persistence through its consumers",
+  "source_file": "lib/store.ts",
+  "source_line": 8,
+  "review_condition": null
+}
