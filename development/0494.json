@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0494",
+  "author_date": "2026-11-17T22:22:34-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for simulated purchase cash and position updates",
+  "source_file": "lib/store.ts",
+  "source_line": 59,
+  "review_condition": "Proposed check: insufficient cash prevents the purchase mutation. This check is not claimed to have been run or passed."
+}
