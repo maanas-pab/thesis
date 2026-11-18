@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0484",
+  "author_date": "2026-11-17T21:19:14-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for placeholder wallet and practice-cash creation",
+  "source_file": "lib/store.ts",
+  "source_line": 52,
+  "review_condition": "Proposed check: sign-in creates a simulated account rather than a real wallet. This check is not claimed to have been run or passed."
+}
