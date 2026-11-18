@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0512",
+  "author_date": "2026-11-18T11:10:35-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement history-hook unmount review",
+  "source_file": "components/useHistory.ts",
+  "source_line": 21,
+  "review_condition": null
+}
