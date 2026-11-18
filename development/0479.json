@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0479",
+  "author_date": "2026-11-17T20:44:08-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for account subscriptions and cross-tab updates",
+  "source_file": "lib/store.ts",
+  "source_line": 31,
+  "review_condition": "Proposed check: unsubscribing removes the storage event listener. This check is not claimed to have been run or passed."
+}
