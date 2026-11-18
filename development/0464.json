@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0464",
+  "author_date": "2026-11-17T19:18:41-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for whole and split purchase summaries",
+  "source_file": "app/s/[id]/page.tsx",
+  "source_line": 78,
+  "review_condition": "Proposed check: the displayed prices come from the shared quote function. This check is not claimed to have been run or passed."
+}
