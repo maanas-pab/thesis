@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0481",
+  "author_date": "2026-11-17T21:00:24-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "design",
+  "activity": "plan: define placeholder wallet and practice-cash creation",
+  "source_file": "lib/store.ts",
+  "source_line": 52,
+  "review_condition": null
+}
