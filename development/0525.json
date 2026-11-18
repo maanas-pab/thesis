@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0525",
+  "author_date": "2026-11-18T13:48:50-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — foundation",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of purchase confirmation re-entry review",
+  "source_file": "components/BuySheet.tsx",
+  "source_line": 38,
+  "review_condition": null
+}
