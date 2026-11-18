@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0466",
+  "author_date": "2026-11-17T19:28:59-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "design",
+  "activity": "plan: define hit-count waterfall visualization",
+  "source_file": "app/s/[id]/page.tsx",
+  "source_line": 96,
+  "review_condition": null
+}
