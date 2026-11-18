@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0537",
+  "author_date": "2026-11-18T15:29:59-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement sign-in search-parameter boundary review",
+  "source_file": "app/signin/page.tsx",
+  "source_line": 41,
+  "review_condition": null
+}
