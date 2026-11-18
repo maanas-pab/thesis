@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0543",
+  "author_date": "2026-11-18T16:16:20-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace live-versus-simulated functionality documentation through its consumers",
+  "source_file": "README.md",
+  "source_line": 13,
+  "review_condition": null
+}
