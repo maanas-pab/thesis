@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0497",
+  "author_date": "2026-11-18T09:21:45-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — integration",
+  "activity_category": "implementation",
+  "activity": "feat: implement simulated sale and sign-out mutations",
+  "source_file": "lib/store.ts",
+  "source_line": 70,
+  "review_condition": null
+}
