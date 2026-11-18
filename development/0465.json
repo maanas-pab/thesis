@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0465",
+  "author_date": "2026-11-17T19:21:59-06:00",
+  "development_area": "Pages and navigation",
+  "milestone": "Pages and navigation — integration",
+  "activity_category": "development_note",
+  "activity": "docs: record behavior and limitations of whole and split purchase summaries",
+  "source_file": "app/s/[id]/page.tsx",
+  "source_line": 78,
+  "review_condition": null
+}
