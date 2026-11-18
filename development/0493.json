@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0493",
+  "author_date": "2026-11-17T22:14:35-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — integration",
+  "activity_category": "integration_review",
+  "activity": "review: trace simulated purchase cash and position updates through its consumers",
+  "source_file": "lib/store.ts",
+  "source_line": 59,
+  "review_condition": null
+}
