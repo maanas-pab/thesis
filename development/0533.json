@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0533",
+  "author_date": "2026-11-18T14:53:44-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace portfolio sale readiness review through its consumers",
+  "source_file": "app/portfolio/page.tsx",
+  "source_line": 84,
+  "review_condition": null
+}
