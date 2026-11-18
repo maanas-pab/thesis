@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0486",
+  "author_date": "2026-11-17T21:30:21-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — foundation",
+  "activity_category": "design",
+  "activity": "plan: define email form validation and local return routing",
+  "source_file": "app/signin/page.tsx",
+  "source_line": 18,
+  "review_condition": null
+}
