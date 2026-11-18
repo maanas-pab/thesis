@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0546",
+  "author_date": "2026-11-18T16:35:30-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — integration",
+  "activity_category": "design",
+  "activity": "plan: define pricing independence and correlated-outcome disclosure",
+  "source_file": "README.md",
+  "source_line": 35,
+  "review_condition": null
+}
