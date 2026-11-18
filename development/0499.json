@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0499",
+  "author_date": "2026-11-18T09:35:56-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for simulated sale and sign-out mutations",
+  "source_file": "lib/store.ts",
+  "source_line": 70,
+  "review_condition": "Proposed check: selling removes the chosen position and credits proceeds. This check is not claimed to have been run or passed."
+}
