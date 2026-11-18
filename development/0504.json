@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0504",
+  "author_date": "2026-11-18T10:11:59-06:00",
+  "development_area": "Authentication and portfolio",
+  "milestone": "Authentication and portfolio — integration",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for portfolio marking and gain-loss totals",
+  "source_file": "app/portfolio/page.tsx",
+  "source_line": 32,
+  "review_condition": "Proposed check: unavailable stories are carried at their recorded cost. This check is not claimed to have been run or passed."
+}
