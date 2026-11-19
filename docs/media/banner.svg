@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="Thesis: turn a view of the future into one trade">
+  <defs>
+    <radialGradient id="glow" cx="30%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#c8f04a" stop-opacity="0.28"/>
+      <stop offset="0.45" stop-color="#c8f04a" stop-opacity="0.06"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c8f04a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#c8f04a" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset="0.08" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.92" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="1200" height="420" rx="28"/></clipPath>
+    <style>
+      .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-style: italic; }
+      .word { opacity: 0; animation: rise .9s cubic-bezier(.2,.8,.2,1) forwards; }
+      @keyframes rise { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+      .line { stroke-dasharray: 1400; stroke-dashoffset: 1400; animation: draw 3.2s cubic-bezier(.4,0,.2,1) .6s forwards, breathe 6s ease-in-out 4s infinite; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      @keyframes breathe { 50% { opacity: .75; } }
+      .area { opacity: 0; animation: fadein 1.6s ease 2.4s forwards; }
+      @keyframes fadein { to { opacity: 1; } }
+      .dot { opacity: 0; animation: fadein .4s ease 3.6s forwards, pulse 1.8s ease-in-out 4s infinite; transform-origin: 1088px 118px; }
+      @keyframes pulse { 50% { transform: scale(1.6); opacity: .45; } }
+      .tape { animation: tape 30s linear infinite; }
+      @keyframes tape { to { transform: translateX(-1360px); } }
+      .num { font-variant-numeric: tabular-nums; }
+    </style>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="420" fill="#000"/>
+    <rect width="1200" height="420" fill="url(#glow)"/>
+
+    <!-- The index line, drawing itself -->
+    <path class="area" d="M620 262 L680 240 L720 248 L770 214 L812 222 L860 186 L905 198 L950 160 L990 172 L1040 132 L1088 118 L1088 340 L620 340 Z" fill="url(#fill)"/>
+    <path class="line" d="M620 262 L680 240 L720 248 L770 214 L812 222 L860 186 L905 198 L950 160 L990 172 L1040 132 L1088 118" fill="none" stroke="#c8f04a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle class="dot" cx="1088" cy="118" r="7" fill="#c8f04a"/>
+    <text class="sans num word" x="1088" y="100" text-anchor="end" fill="#f5f5f7" font-size="44" font-weight="700" letter-spacing="-1.5" style="animation-delay:3.4s">53.3</text>
+    <text class="sans word" x="1088" y="50" text-anchor="end" fill="#8e8e93" font-size="15" style="animation-delay:3.2s">Green Close · live index</text>
+
+    <!-- Wordmark -->
+    <g class="word" style="animation-delay:.05s">
+      <rect x="64" y="58" width="44" height="44" rx="12" fill="#f5f5f7"/>
+      <circle cx="94" cy="72" r="7" fill="#c8f04a"/>
+      <text class="sans" x="122" y="92" fill="#f5f5f7" font-size="32" font-weight="700" letter-spacing="-1">Thesis</text>
+    </g>
+
+    <!-- Headline -->
+    <text class="sans" x="64" y="196" fill="#f5f5f7" font-size="62" font-weight="700" letter-spacing="-3">
+      <tspan class="word" style="animation-delay:.25s">Turn a view</tspan>
+    </text>
+    <text class="sans" x="64" y="262" fill="#f5f5f7" font-size="62" font-weight="700" letter-spacing="-3">
+      <tspan class="word" style="animation-delay:.45s">into</tspan>
+      <tspan class="word serif" fill="#c8f04a" font-weight="400" letter-spacing="-1" style="animation-delay:.65s"> one trade.</tspan>
+    </text>
+    <text class="sans word" x="66" y="304" fill="#8e8e93" font-size="19" style="animation-delay:.9s">Baskets of live Gemini prediction markets, priced as one index, with correlations.</text>
+
+    <!-- Ticker tape -->
+    <line x1="0" y1="352" x2="1200" y2="352" stroke="#1c1c1e"/>
+    <g class="sans num" font-size="16">
+      <g class="tape">
+        <g id="row">
+          <text x="40" y="392" fill="#8e8e93">Majors Climb <tspan fill="#f5f5f7" font-weight="700">55.3</tspan> <tspan fill="#ff6b5b">▼ 6.3</tspan></text>
+          <text x="290" y="392" fill="#8e8e93">Green Close <tspan fill="#f5f5f7" font-weight="700">53.3</tspan> <tspan fill="#30d158">▲ 1.3</tspan></text>
+          <text x="525" y="392" fill="#8e8e93">Favorites Win It All <tspan fill="#f5f5f7" font-weight="700">27.7</tspan> <tspan fill="#ff6b5b">▼ 1.0</tspan></text>
+          <text x="805" y="392" fill="#8e8e93">All In on Philadelphia <tspan fill="#f5f5f7" font-weight="700">44.3</tspan> <tspan fill="#30d158">▲ 1.0</tspan></text>
+          <text x="1100" y="392" fill="#8e8e93">Soft Landing <tspan fill="#f5f5f7" font-weight="700">75.1</tspan> <tspan fill="#30d158">▲ 12.6</tspan></text>
+        </g>
+        <use href="#row" x="1360"/>
+      </g>
+    </g>
+    <rect y="352" width="1200" height="68" fill="url(#fade)"/>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="419" rx="27.5" fill="none" stroke="#2c2c2e"/>
+</svg>
