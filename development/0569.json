@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0569",
+  "author_date": "2026-11-18T20:19:06-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for reduced-motion interaction overrides",
+  "source_file": "app/globals.css",
+  "source_line": 820,
+  "review_condition": "Proposed check: entrance and hover effects respect the preference. This check is not claimed to have been run or passed."
+}
