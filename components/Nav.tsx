@@ -4,6 +4,15 @@ import { usePathname } from "next/navigation";
 import { useAccount } from "@/lib/store";
 import { usd } from "@/lib/math";
 
+const LINKS = [
+  { href: "/", label: "Stories" },
+  { href: "/thesis", label: "Thesis" },
+  { href: "/build", label: "Build" },
+  { href: "/leaders", label: "Leaders" },
+  { href: "/portfolio", label: "Portfolio" },
+  { href: "/chain", label: "On chain" },
+];
+
 export default function Nav() {
   const path = usePathname();
   const account = useAccount();
@@ -11,23 +20,25 @@ export default function Nav() {
   return (
     <header className="nav">
       <div className="nav-in">
-        <Link href="/" className="brand">
-          <i />
+        <Link href="/" className="brand" aria-label="Thesis, home">
+          <i className="mark" />
           Thesis
         </Link>
         <nav className="nav-links">
-          <Link href="/" aria-current={cur("/")}>
-            Stories
-          </Link>
-          <Link href="/portfolio" aria-current={cur("/portfolio")}>
-            Portfolio
-          </Link>
+          {LINKS.map((l) => (
+            <Link key={l.href} href={l.href} aria-current={cur(l.href)}>
+              {l.label}
+            </Link>
+          ))}
         </nav>
         <div className="nav-acct">
           {account === undefined ? null : account ? (
-            <span className="num muted">{usd(account.cash)}</span>
+            <Link href="/portfolio" className="cash">
+              <span>Cash</span>
+              {usd(account.cash)}
+            </Link>
           ) : (
-            <Link href="/signin" className="btn sm ghost">
+            <Link href="/signin" className="btn sm">
               Sign in
             </Link>
           )}
