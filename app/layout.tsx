@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { IBM_Plex_Mono, Instrument_Sans, Instrument_Serif } from "next/font/google";
 import { Toaster } from "sonner";
 import Nav from "@/components/Nav";
+import Scroll from "@/components/Scroll";
+import Tape from "@/components/Tape";
+import Tracker from "@/components/Tracker";
 import "./globals.css";
 
-const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
-const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
+const serif = Instrument_Serif({ variable: "--font-serif", subsets: ["latin"], weight: "400", style: ["normal", "italic"] });
+const sans = Instrument_Sans({ variable: "--font-sans", subsets: ["latin"] });
+const mono = IBM_Plex_Mono({ variable: "--font-mono", subsets: ["latin"], weight: ["400", "500"] });
 
 export const metadata: Metadata = {
   title: "Thesis",
@@ -14,11 +18,22 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+    <html lang="en" className={`${serif.variable} ${sans.variable} ${mono.variable}`}>
       <body>
-        <div className="banner">Demo mode. Live Gemini prices; buys are simulated in this browser.</div>
         <Nav />
+        <Tape />
         <main className="wrap">{children}</main>
+        <footer className="foot">
+          <div className="foot-in">
+            <span className="foot-brand">
+              <i className="mark" />
+              Thesis
+            </span>
+            <span>Demo edition. Live Gemini prices, practice money, story tokens on Solana devnet.</span>
+          </div>
+        </footer>
+        <Scroll />
+        <Tracker />
         <Toaster position="top-center" theme="system" />
       </body>
     </html>
