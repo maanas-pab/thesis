@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0556",
+  "author_date": "2026-11-18T18:54:47-06:00",
+  "development_area": "Testing, fixes and documentation",
+  "milestone": "Testing, fixes and documentation — integration",
+  "activity_category": "design",
+  "activity": "plan: define local setup and application-stack documentation",
+  "source_file": "README.md",
+  "source_line": 39,
+  "review_condition": null
+}
