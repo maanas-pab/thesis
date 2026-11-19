@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0574",
+  "author_date": "2026-11-18T20:49:26-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for purchase drawer safe-area spacing",
+  "source_file": "app/globals.css",
+  "source_line": 593,
+  "review_condition": "Proposed check: bottom controls account for a device safe-area inset. This check is not claimed to have been run or passed."
+}
