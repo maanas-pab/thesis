@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0572",
+  "author_date": "2026-11-18T20:37:48-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "implementation",
+  "activity": "feat: implement purchase drawer safe-area spacing",
+  "source_file": "app/globals.css",
+  "source_line": 593,
+  "review_condition": null
+}
