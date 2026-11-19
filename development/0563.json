@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0563",
+  "author_date": "2026-11-18T19:46:40-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace keyboard focus presentation through its consumers",
+  "source_file": "app/globals.css",
+  "source_line": 799,
+  "review_condition": null
+}
