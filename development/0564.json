@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0564",
+  "author_date": "2026-11-18T19:52:05-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "validation_plan",
+  "activity": "test: specify coverage for keyboard focus presentation",
+  "source_file": "app/globals.css",
+  "source_line": 799,
+  "review_condition": "Proposed check: interactive controls have a visible focus indication. This check is not claimed to have been run or passed."
+}
