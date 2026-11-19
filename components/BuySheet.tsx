@@ -4,83 +4,77 @@ import { useState } from "react";
 import { Drawer } from "vaul";
 import { toast } from "sonner";
 import type { Story, TrancheKind } from "@/lib/types";
-import { quote, usd } from "@/lib/math";
-import { buy, useAccount } from "@/lib/store";
+import { CREATOR_FEE, quote, usd } from "@/lib/math";
+import { positionFrom } from "@/lib/positions";
+import { mintFor } from "@/lib/chain-client";
+import { buy, placeOrder, useAccount } from "@/lib/store";
 
-const KINDS: { kind: TrancheKind; label: string; line: string }[] = [
-  { kind: "whole", label: "Whole", line: "Pays for every market that hits." },
-  { kind: "safe", label: "Safe", line: "Paid first. Smaller gain, last to lose." },
-  { kind: "bold", label: "Bold", line: "Paid after Safe. Bigger win, can go to zero." },
-];
 const CHIPS = [10, 20, 50, 100];
 
 export default function BuySheet({ story }: { story: Story }) {
   const account = useAccount();
   const [open, setOpen] = useState(false);
-  const [kind, setKind] = useState<TrancheKind>("whole");
+  // Safe and Bold are now the tiered pool; buying now is always the whole basket.
+  const kind: TrancheKind = "whole";
   const [amount, setAmount] = useState("20");
   const [busy, setBusy] = useState(false);
+  const [mode, setMode] = useState<"now" | "limit">("now");
+  const [limitCents, setLimitCents] = useState("");
 
-  const i = KINDS.findIndex((k) => k.kind === kind);
   const q = quote(story, kind);
   const dollars = parseFloat(amount) || 0;
-  const units = q.price > 0 ? dollars / q.price : 0;
+  // Community stories pay their creator a cut of each buy.
+  const fee = story.community ? dollars * CREATOR_FEE : 0;
+  const limit = (parseFloat(limitCents) || 0) / 100;
+  // A limit at or above today's ask would fill right away, so it is just a buy.
+  const resting = mode === "limit" && limit > 0 && limit < q.price;
+  const unitPrice = resting ? limit : q.price;
+  const units = unitPrice > 0 ? (dollars - fee) / unitPrice : 0;
   const maxPay = units * q.max;
   const gain = maxPay - dollars;
   // A side with no upside at the current spread is not sold.
   const closed = (k: TrancheKind) => { const x = quote(story, k); return x.price >= x.max - 0.001; };
-  const lossChance = kind === "safe" ? story.tranches.safeLoss : kind === "bold" ? story.tranches.boldLoss : story.tranches.dist[0];
+  const lossChance = story.tranches.safeLoss;
   const short = !!account && dollars > account.cash;
-  const bad = dollars < 1 || short || closed(kind);
+  const bad = dollars < 1 || short || closed(kind) || (mode === "limit" && !(limit > 0));
 
   async function confirm() {
     if (bad || busy) return;
     setBusy(true);
-    // Stand-in for: move USDC, place the Gemini orders, mint the story token.
-    await new Promise((r) => setTimeout(r, 700));
-    const ok = buy({ storyId: story.id, storyName: story.name, kind, units, cost: dollars });
+    if (resting) {
+      const ok = placeOrder({ storyId: story.id, storyName: story.name, kind, limit, dollars });
+      setBusy(false);
+      if (!ok) return toast.error("That didn't go through. Nothing was set aside.");
+      setOpen(false);
+      return toast.success(`Limit order placed on ${story.name}`, {
+        description: `${usd(dollars)} is set aside and buys the basket if its price drops to ${Math.round(limit * 100)}¢. Cancel any time in Portfolio.`,
+      });
+    }
+    const pos = positionFrom(story, kind, units, dollars);
+    const id = buy(pos);
     setBusy(false);
-    if (!ok) return toast.error("That didn't go through. Nothing was charged.");
+    if (!id) return toast.error("That didn't go through. Nothing was charged.");
+    mintFor(id, pos);
+    if (story.community) fetch(`/api/community/${story.id}`, { method: "POST", body: JSON.stringify({ amount: dollars }) }).catch(() => {});
     setOpen(false);
     toast.success(`Bought ${units.toFixed(1)} units of ${story.name}`, {
-      description: `${KINDS[i].label} side for ${usd(dollars)}. You can get back up to ${usd(maxPay)}.`,
+      description: `$Whole basket for ${usd(dollars)}. You can get back up to ${usd(maxPay)}.`,
     });
   }
 
   return (
     <Drawer.Root open={open} onOpenChange={setOpen}>
       <Drawer.Trigger asChild>
-        <button className="btn wide">Buy this story</button>
+        <button className="btn wide">Buy the basket now</button>
       </Drawer.Trigger>
       <Drawer.Portal>
         <Drawer.Overlay className="overlay" />
         <Drawer.Content className="sheet">
           <div className="grab" />
           <Drawer.Title asChild>
-            <h2>Buy {story.name}</h2>
+            <h2>Buy {story.name} now</h2>
           </Drawer.Title>
-          <Drawer.Description className="sub">{KINDS[i].line}</Drawer.Description>
-
-          <div className="seg" role="tablist" aria-label="Side">
-            <div className="seg-row">
-              {KINDS.map((k) => (
-                <button key={k.kind} role="tab" aria-selected={k.kind === kind} disabled={closed(k.kind)} onClick={() => setKind(k.kind)}>
-                  {k.label}
-                </button>
-              ))}
-            </div>
-            <div
-              className="seg-active"
-              aria-hidden
-              style={{ clipPath: `inset(0 ${((2 - i) * 100) / 3}% 0 ${(i * 100) / 3}% round 9px)` }}
-            >
-              <div className="seg-row">
-                {KINDS.map((k) => (
-                  <span key={k.kind}>{k.label}</span>
-                ))}
-              </div>
-            </div>
-          </div>
+          <Drawer.Description className="sub">Pays for every market that hits. Sell any time at the bid.</Drawer.Description>
 
           <label className="amount num">
             <span>$</span>
@@ -100,10 +94,41 @@ export default function BuySheet({ story }: { story: Story }) {
             ))}
           </div>
 
-          <div className="kv">
-            <span>Price per unit</span>
-            <span className="num">{usd(q.price)}</span>
+          <div className="mode" role="group" aria-label="Order type">
+            <button className="chip" aria-pressed={mode === "now"} onClick={() => setMode("now")}>
+              Buy now
+            </button>
+            <button
+              className="chip"
+              aria-pressed={mode === "limit"}
+              onClick={() => {
+                setMode("limit");
+                if (!limitCents) setLimitCents(String(Math.max(Math.round(q.price * 100) - 2, 1)));
+              }}
+            >
+              Limit order
+            </button>
+            {mode === "limit" && (
+              <label className="limit num">
+                Buy if the price drops to
+                <input inputMode="numeric" aria-label="Limit price in cents" value={limitCents} onChange={(e) => setLimitCents(e.target.value.replace(/[^\d.]/g, "").slice(0, 4))} />¢
+              </label>
+            )}
           </div>
+          <div className="kv">
+            <span>{resting ? "Your limit per unit" : "Price per unit (ask)"}</span>
+            <span className="num">{usd(unitPrice)}</span>
+          </div>
+          <div className="kv">
+            <span>Sells back for (bid)</span>
+            <span className="num">{usd(units * q.bid)}</span>
+          </div>
+          {story.community && (
+            <div className="kv">
+              <span>Creator fee (1%) to {story.community.creator}</span>
+              <span className="num">{usd(fee)}</span>
+            </div>
+          )}
           <div className="kv">
             <span>You get</span>
             <span className="num">{units.toFixed(1)} units</span>
@@ -126,7 +151,7 @@ export default function BuySheet({ story }: { story: Story }) {
 
           {account ? (
             <button className="btn wide" onClick={confirm} disabled={bad} data-busy={busy}>
-              <span className="btn-label">{busy ? "Buying" : `Buy for ${usd(dollars)}`}</span>
+              <span className="btn-label">{busy ? "Buying" : resting ? `Place limit order for ${usd(dollars)}` : `Buy for ${usd(dollars)}`}</span>
             </button>
           ) : (
             <Link className="btn wide" href={`/signin?next=/s/${story.id}`}>
