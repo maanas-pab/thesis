@@ -1,0 +1,11 @@
+{
+  "entry_id": "DEV-0568",
+  "author_date": "2026-11-18T20:16:04-06:00",
+  "development_area": "Miscellaneous refinements",
+  "milestone": "Miscellaneous refinements — foundation",
+  "activity_category": "integration_review",
+  "activity": "review: trace reduced-motion interaction overrides through its consumers",
+  "source_file": "app/globals.css",
+  "source_line": 820,
+  "review_condition": null
+}
