@@ -17,7 +17,9 @@
 
 <br><br>
 
-[**How it works**](#how-it-works) · [**Why correlation matters**](#why-correlation-matters) · [**Tour**](#a-tour) · [**Pools**](#tiered-pools) · [**Under the hood**](#under-the-hood) · [**Run it**](#run-it)
+[**Launch Thesis →**](https://thesis-trade.up.railway.app/)
+
+[**How it works**](#how-it-works) · [**Why correlation matters**](#why-correlation-matters) · [**Tour**](#a-tour) · [**Pools**](#tiered-pools) · [**Under the hood**](#under-the-hood) · [**Try it live**](#try-it-live)
 
 <br>
 
@@ -230,46 +232,26 @@ Dockerfile               one container, SQLite on a /data volume
 
 <br>
 
-## Run it
+## Try it live
 
-```bash
-npm install
-npm run dev
-```
+**[Open Thesis →](https://thesis-trade.up.railway.app/)**
 
-Open http://localhost:3000, create an account, and you get $1,000 of practice money.
+No installation needed. Open the website in your browser to explore live prediction-market baskets.
 
-```bash
-npm test
-```
+1. **Explore a story.** Browse the market shelves and open a basket to see its contracts, prices, history and payout structure.
+2. **Build your thesis.** [Describe a view](https://thesis-trade.up.railway.app/thesis) or [choose your own markets](https://thesis-trade.up.railway.app/build).
+3. **Try a practice trade.** [Create an account](https://thesis-trade.up.railway.app/signin) to start with $1,000 of practice money.
+4. **Follow your positions.** Open your [portfolio](https://thesis-trade.up.railway.app/portfolio) to review holdings and exposures.
 
-31 tests check the pricing against brute-force enumeration and closed-form answers, the pool waterfall against worked examples, the random close, the risk maths, the mood reader and password hashing.
+The demo uses live Gemini market data and simulated trading. It does not accept real-money deposits or place orders on Gemini. AI matching depends on configured provider credentials; rule-based and keyword matching are available as fallbacks. Solana token operations use devnet and require a funded devnet treasury.
 
-### Environment
+### Validation
 
-All optional. Market data needs no key.
-
-| Variable | For |
-|---|---|
-| `AIMLAPI_KEY` | Jev thesis matching through AI/ML API (`TYPESAFE_API_KEY` for TypeSafe's own endpoint; `JEV_URL`, `JEV_MODEL` to override) |
-| `ANTHROPIC_API_KEY` | Claude thesis matching |
-| `SOLANA_TREASURY_SECRET`, `SOLANA_RPC_URL` | Devnet story tokens |
-| `DATA_DIR` | Where the database and data files live (default `.data/`) |
-
-### Deploy
-
-Thesis is one Node server plus a SQLite file, so it wants a host with a long-lived container and a persistent disk: **Railway, Fly.io, Render** or any VPS. Serverless hosts like Vercel don't keep a disk, so accounts would be lost.
-
-```bash
-docker build -t thesis .
-docker run -p 3000:3000 -v thesis-data:/data thesis
-```
-
-On a host: deploy the Dockerfile, mount a volume at `/data`, and serve over HTTPS (session cookies are `Secure` in production). The image has a health check at `/api/health`. Back up `/data/thesis.db`.
+31 automated tests cover pricing, pool payout waterfalls, randomized closing times, portfolio exposure, sentiment matching and password handling. TypeScript checks and the production build passed during deployment preparation.
 
 <br>
 
-## Where it stands
+## Demo features and roadmap
 
 | Part | State |
 |---|---|
