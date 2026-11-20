@@ -29,7 +29,7 @@
 
 <br>
 
-## How it works
+## How it work
 
 <table>
 <tr>
